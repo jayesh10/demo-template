@@ -1,4 +1,14 @@
-$background-color:#A9A9A9;
+
+// color variables
+
+$white:#fff;
+$black:#000;
+
+
+
+// common color usec
+$background-color:#80817D;
+$headertext-color:#BBBDBF;
 
 body{
     background-color: $background-color;
@@ -13,7 +23,7 @@ nav{
 }
 
 .banner-image{
-    background-color: $background-color;
+   
     a{
         color:#fff;
     }
@@ -21,6 +31,28 @@ nav{
     .text{
         font: 100;
     }
+}
+
+.header-text-color{
+  color:$headertext-color
+}
+
+
+// menu section css
+#menu-section{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:80px;
+    font-size: 27px;
+  letter-spacing: -1px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: right;
+
+  .nav-link{
+    padding:0;
+  }
 }
 
 .gallery-section{
@@ -64,19 +96,66 @@ nav{
     }
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+#work-section{
+  background-color:$white;
+}
 
-body {
-    padding-bottom: 3rem;
-    color: #5a5a5a;
+
+#client-section{
+  .client-logos{
+    img{ 
+      padding:5px; 
+    }
+  }
+}
+
+#testimonal-section{
+  color:$headertext-color;
+  .message-section{
+    padding:10px;
+    border-radius:0px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: $white;
+    display: flex;
+    justify-content: center;
+    p{
+      margin:auto;
+    }
+  }
+}
+
+
+#contact-form{
+  background-color: #363636;
+  label{
+    color:$headertext-color;
+  }
+  input,textarea {
+    border-radius:0px;
+    background-color: #363636;
+    border:1px solid #363636;
+    border-bottom:1px solid $headertext-color;
+
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+  .address-section{
+    text-align: left;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color:$headertext-color
   }
   
-  
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
+}
+
+.slick-slide {
+  margin: 0 27px;
+}
+
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
@@ -90,7 +169,7 @@ body {
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
-    background-color: #777;
+    background-color:$background-color;
   }
   .carousel-item > img {
     position: absolute;
@@ -104,7 +183,6 @@ body {
   /* MARKETING CONTENT
   -------------------------------------------------- */
   
-  /* Center align the text within the three columns below the carousel */
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
