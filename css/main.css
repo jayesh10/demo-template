@@ -18,10 +18,14 @@ nav a {
   color: #BBBDBF;
 }
 
+.brand-logo {
+  padding-left: 150px;
+}
+
 #menu-section {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 80px;
+  padding-right: 150px;
   font-size: 27px;
   letter-spacing: -1px;
   line-height: 26px;
