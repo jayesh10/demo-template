@@ -182,20 +182,46 @@ padding-left:150px;
       padding:5px; 
     }
   }
+  .client-row-header-text{
+    padding-left: 0;
+    font-family: "DinAltBold";
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
+
+
+  .image-section{
+    margin:0 10px 18px;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #testimonal-section{
-  color:$headertext-color;
+  color: $white;
   .message-section{
-    padding:10px;
+    padding:50px 20px;
     border-radius:0px;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: $white;
-    display: flex;
-    justify-content: center;
+    text-align: start;
     p{
       margin:auto;
+    }
+    .anchor-name-section{
+      margin-top:10px;
+    }
+    .name-section{
+      
+      color:$white;
+      font-weight: 800;
     }
   }
 }
@@ -204,9 +230,11 @@ padding-left:150px;
 #contact-form{
   background-color: #363636;
   label{
+    font-size:1.2rem;
     color:$headertext-color;
   }
   input,textarea {
+    line-height: 1;
     border-radius:0px;
     background-color: #363636;
     border:1px solid #363636;
@@ -216,13 +244,24 @@ padding-left:150px;
       box-shadow: none;
     }
   }
+  .contactus-row-header-text{
+    padding-left: 0;
+    font-family: "DinAltBold";
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
 
   .address-section{
     text-align: left;
     font-size: 15px;
     line-height: 23px;
     font-weight: 400;
-    color:$headertext-color
+    color:$headertext-color;
+    font-family: "DinAlt";
+    padding-left:5%;
   }
   
 }
@@ -244,6 +283,18 @@ padding-left:150px;
 
 .slick-slide {
   margin: 0 27px;
+}
+
+.slick-next{
+  position: absolute;
+  left: -55px;
+  top: 55px;
+}
+
+.slick-prev{
+  position: absolute;
+  right: -55px;
+  top: 64px;
 }
 
   /* Carousel base class */
