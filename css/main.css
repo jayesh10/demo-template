@@ -177,6 +177,9 @@ nav a {
   font-size: 1.2rem;
   color: #ACADB1;
 }
+#contact-form .form-section {
+  padding-right: 5%;
+}
 #contact-form input, #contact-form textarea {
   line-height: 1;
   border-radius: 0px;
