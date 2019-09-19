@@ -1,4 +1,15 @@
 
+$fontPath : '../font/';
+@font-face{
+  font-family:"DinAlt";
+  src:url($fontPath+"DINAlternateBold.ttf");
+}
+@font-face{
+  font-family:"DinAltBold";
+  src:url($fontPath+"DINBK.TTF");
+}
+
+
 // color variables
 
 $white:#fff;
@@ -8,7 +19,8 @@ $black:#000;
 
 // common color usec
 $background-color:#80817D;
-$headertext-color:#BBBDBF;
+$headertext-color:#ACADB1;
+$rowheadertextcolor:#80817d;
 
 body{
     background-color: $background-color;
@@ -101,6 +113,66 @@ padding-left:150px;
 
 #work-section{
   background-color:$white;
+
+  .work-header{
+    font-family: "DinAltBold";
+    margin: 20px;
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  .row-section{
+    position: relative;
+    padding-left: 0%;
+    padding-right: 10%;
+  }
+
+  .work-row-header-text{
+    padding-left: 0;
+    font-family: "DinAltBold";
+    color: #80817d;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
+
+  .package-anchor-section{
+    font-family: "DinAltBold";
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 88%;
+    top: 50%;
+    padding-top:4%;
+    color:#b52727
+  }
+
+  .campaign-anchor-section{
+    font-family: "DinAltBold";
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 88%;
+    top: 50%;
+    padding-top:4%;
+    color:#43cfe8;
+  }
+
+  .brand-anchor-section{
+    font-family: "DinAltBold";
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 88%;
+    top: 50%;
+    padding-top:4%;
+    color:#edb315;
+  }
 }
 
 
