@@ -147,7 +147,14 @@ padding-left:150px;
     left: 88%;
     top: 50%;
     padding-top:4%;
-    color:#b52727
+    color:#b52727;
+    @media screen and (max-width:768px){
+      transform: rotate(0);
+      position: inherit;
+      justify-content: center;
+      width:100%;
+  
+    }
   }
 
   .campaign-anchor-section{
@@ -160,6 +167,13 @@ padding-left:150px;
     top: 50%;
     padding-top:4%;
     color:#43cfe8;
+    @media screen and (max-width:768px){
+      transform: rotate(0);
+      position: inherit;
+      justify-content: center;
+      width:100%;
+  
+    }
   }
 
   .brand-anchor-section{
@@ -172,6 +186,13 @@ padding-left:150px;
     top: 50%;
     padding-top:4%;
     color:#edb315;
+    @media screen and (max-width:768px){
+      transform: rotate(0);
+      position: inherit;
+      justify-content: center;
+      width:100%;
+  
+    }
   }
 }
 
@@ -299,6 +320,7 @@ padding-left:150px;
   position: absolute;
   right: -55px;
   top: 64px;
+  transform: rotate(180deg);
 }
 
   /* Carousel base class */
@@ -337,6 +359,9 @@ padding-left:150px;
     margin-left: .75rem;
   }
   
+  .map-section iframe{
+    border-radius: 30px;
+  }
   
   /* Featurettes
   ------------------------- */

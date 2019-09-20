@@ -105,6 +105,14 @@ nav a {
   padding-top: 4%;
   color: #b52727;
 }
+@media screen and (max-width: 768px) {
+  #work-section .package-anchor-section {
+    transform: rotate(0);
+    position: inherit;
+    justify-content: center;
+    width: 100%;
+  }
+}
 #work-section .campaign-anchor-section {
   font-family: "DinAltBold";
   display: flex;
@@ -116,6 +124,14 @@ nav a {
   padding-top: 4%;
   color: #43cfe8;
 }
+@media screen and (max-width: 768px) {
+  #work-section .campaign-anchor-section {
+    transform: rotate(0);
+    position: inherit;
+    justify-content: center;
+    width: 100%;
+  }
+}
 #work-section .brand-anchor-section {
   font-family: "DinAltBold";
   display: flex;
@@ -126,6 +142,14 @@ nav a {
   top: 50%;
   padding-top: 4%;
   color: #edb315;
+}
+@media screen and (max-width: 768px) {
+  #work-section .brand-anchor-section {
+    transform: rotate(0);
+    position: inherit;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 #client-section .client-logos img {
@@ -238,6 +262,7 @@ nav a {
   position: absolute;
   right: -55px;
   top: 64px;
+  transform: rotate(180deg);
 }
 
 /* Carousel base class */
@@ -275,6 +300,10 @@ nav a {
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+}
+
+.map-section iframe {
+  border-radius: 30px;
 }
 
 /* Featurettes
