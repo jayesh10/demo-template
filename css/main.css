@@ -15,6 +15,26 @@ nav a {
   color: #fff;
 }
 
+#home-section:hover {
+  color: #000;
+}
+
+#aboutus-section:hover {
+  color: #b52727;
+}
+
+#workShowcase-section:hover {
+  color: blue;
+}
+
+#clinetSpeak-section:hover {
+  color: blueviolet;
+}
+
+#contact-section:hover {
+  color: cornflowerblue;
+}
+
 .banner-image a {
   color: #fff;
 }
