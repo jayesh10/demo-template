@@ -16,16 +16,52 @@
 
 <body class="text-center">
 
-    <header id="menu-section" class=" ontainer-fluid  mb-auto">
+    <header id="menu-section" class=" container  mb-auto">
         <div class="inner row">
             <h3 class="brand-logo text-left col-6 m-auto "><img class="img-fluid" src="./logo.png"></h3>
-            <nav class="nav flex-column align-items-end col-6">
+            <!-- mobile navigation -->
+            <nav class=" d-block d-md-none  navbar navbar-expand-lg navbar-light col-6">
+                   
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                  
+                    </div>
+                  </nav>
+            <!-- end of mobile navigation -->
+            <!-- desktop menu -->
+            <nav class="nav d-none d-md-block flex-column align-items-end col-6">
                 <a id="home-section" class="nav-link text-uppercase active" href="#">Home</a>
                 <a id="aboutus-section" class="nav-link text-uppercase" href="#">About US</a>
                 <a id="workShowcase-section" class="nav-link text-uppercase" href="#"> Work Showcase</a>
                 <a id="clinetSpeak-section" class="nav-link text-uppercase" href="#">Client SPEAKS</a>
                 <a id="contact-section" class="nav-link text-uppercase" href="#">Contact</a>
             </nav>
+            <!-- end of desktop menu -->
         </div>
     </header>
 
@@ -109,7 +145,7 @@
             </div>
         </div> -->
 
-        <div class="work-section py-4" id="work-section">
+        <div class="work-section py-md-4" id="work-section">
             <div class="container">
                 <!-- Title section -->
                 <div class="row justify-content-center ">
@@ -422,14 +458,16 @@
                         breakpoint: 600,
                         settings: {
                             slidesToShow: 2,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            arrows:false,
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
                             slidesToShow: 1,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            arrows:false
                         }
                     }
 
