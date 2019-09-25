@@ -21,22 +21,27 @@ nav a {
 }
 
 #home-section:hover {
+  transition: 1s;
   color: #000;
 }
 
 #aboutus-section:hover {
+  transition: 1s;
   color: #b52727;
 }
 
 #workShowcase-section:hover {
+  transition: 1s;
   color: blue;
 }
 
 #clinetSpeak-section:hover {
+  transition: 1s;
   color: blueviolet;
 }
 
 #contact-section:hover {
+  transition: 1s;
   color: darkcyan;
 }
 
