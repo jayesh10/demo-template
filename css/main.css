@@ -109,6 +109,8 @@ nav a {
 
 #work-section {
   background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 @media screen and (max-width: 768px) {
   #work-section {
@@ -117,7 +119,6 @@ nav a {
 }
 #work-section .work-header {
   font-family: "DinAltBold";
-  margin: 20px;
   font-size: 40px;
   letter-spacing: -1px;
 }
@@ -165,7 +166,7 @@ nav a {
 @media screen and (max-width: 768px) {
   #work-section .package-anchor-section {
     transform: rotate(0);
-    position: inherit;
+    position: sticky;
     justify-content: center;
     width: 100%;
   }
@@ -184,7 +185,7 @@ nav a {
 @media screen and (max-width: 768px) {
   #work-section .campaign-anchor-section {
     transform: rotate(0);
-    position: inherit;
+    position: sticky;
     justify-content: center;
     width: 100%;
   }
@@ -203,12 +204,16 @@ nav a {
 @media screen and (max-width: 768px) {
   #work-section .brand-anchor-section {
     transform: rotate(0);
-    position: inherit;
+    position: sticky;
     justify-content: center;
     width: 100%;
   }
 }
 
+#client-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 #client-section .client-logos img {
   padding: 5px;
 }
@@ -258,6 +263,8 @@ nav a {
 
 #contact-form {
   background-color: #363636;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #contact-form label {
   font-size: 1.2rem;
@@ -311,6 +318,10 @@ nav a {
 #contact-form #sendButton {
   font-family: "DinAltBold";
   font-size: 25px;
+}
+#contact-form .action-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .google-maps {
@@ -392,6 +403,15 @@ nav a {
   margin-left: 0.75rem;
 }
 
+.map-section {
+  display: flex;
+  padding-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .map-section {
+    padding-left: 0px;
+  }
+}
 .map-section iframe {
   border-radius: 30px;
 }

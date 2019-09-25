@@ -155,13 +155,14 @@ nav{
 
 #work-section{
   background-color:$white;
+  padding-top:80px;
+  padding-bottom:80px;
   @media screen and (max-width:768px){
     padding: 50px 20px 50px 20px;  
   }
 
   .work-header{
     font-family: "DinAltBold";
-    margin: 20px;
     font-size: 40px;
     letter-spacing: -1px;
 
@@ -208,7 +209,7 @@ nav{
     color:#b52727;
     @media screen and (max-width:768px){
       transform: rotate(0);
-      position: inherit;
+      position: sticky;
       justify-content: center;
       width:100%;
   
@@ -227,7 +228,7 @@ nav{
     color:#43cfe8;
     @media screen and (max-width:768px){
       transform: rotate(0);
-      position: inherit;
+      position: sticky;
       justify-content: center;
       width:100%;
   
@@ -246,7 +247,7 @@ nav{
     color:#edb315;
     @media screen and (max-width:768px){
       transform: rotate(0);
-      position: inherit;
+      position: sticky;
       justify-content: center;
       width:100%;
   
@@ -256,6 +257,8 @@ nav{
 
 
 #client-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
   .client-logos{
     img{ 
       padding:5px; 
@@ -288,6 +291,7 @@ nav{
 
 #testimonal-section{
   color: $white;
+
   .message-section{
     padding:50px 20px;
     border-radius:0px;
@@ -312,6 +316,8 @@ nav{
 
 #contact-form{
   background-color: #363636;
+  padding-top: 80px;
+  padding-bottom: 80px;
   
   label{
     font-size:1.2rem;
@@ -367,6 +373,10 @@ nav{
   #sendButton{
     font-family: "DinAltBold";
     font-size: 25px;
+  }
+  .action-section{
+    display: flex;
+    justify-content: space-between;
   }
   
 }
@@ -447,13 +457,21 @@ nav{
     margin-left: .75rem;
   }
   
-  .map-section iframe{
-    border-radius: 30px;
+  .map-section{
+    display: flex;
+    padding-left: 24px;
 
     @media screen and (max-width:768px){
-      width:300px;
-      height: 200px;
+      padding-left:0px;
     }
+    iframe{
+      border-radius: 30px;
+  
+      @media screen and (max-width:768px){
+        width:300px;
+        height: 200px;
+      }
+    } 
   }
   
   /* Featurettes
