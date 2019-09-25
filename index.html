@@ -16,9 +16,9 @@
 
 <body class="text-center">
 
-    <header id="menu-section" class=" container  mb-auto">
-        <div class="inner row">
-            <h3 class="brand-logo text-left col-6 m-auto "><img class="img-fluid" src="./logo.png"></h3>
+    <header id="menu-section" class=" container  mb-auto row">
+        
+            <span class="brand-logo text-left col-6 m-auto "><img class="img-fluid" src="./logo.png"></span>
             <!-- mobile navigation -->
             <nav class=" d-block d-md-none  navbar navbar-expand-lg navbar-light col-6">
                    
@@ -62,7 +62,6 @@
                 <a id="contact-section" class="nav-link text-uppercase" href="#">Contact</a>
             </nav>
             <!-- end of desktop menu -->
-        </div>
     </header>
 
     <main>
@@ -161,16 +160,16 @@
                     </div>
                     <div class="row d-flex pl-0">
                         <div class=" col-12 col-sm-3 col-md-4 my-3 my-md-0" data-toggle="modal"
-                            data-target="#exampleModalCenter">
-                            <img src="./product1.png" class="img-fluid" />
+                            data-target="#exampleModalCenter" onClick="modalClick(event)">
+                            <img  id="first-product" src="./product1.png" class="img-fluid" />
                         </div>
                         <div class=" col-12 col-sm-3 col-md-4 my-3 my-md-0" data-toggle="modal"
-                            data-target="#exampleModalCenter">
-                            <img src="./product2.png" class="img-fluid" />
+                            data-target="#exampleModalCenter" onClick="modalClick(event)">
+                            <img id="first-product" src="./product2.png" class="img-fluid" />
                         </div>
                         <div class=" col-12 col-sm-3 col-md-4 my-3 my-md-0" data-toggle="modal"
-                            data-target="#exampleModalCenter">
-                            <img src="./product3.png" class="img-fluid" />
+                            data-target="#exampleModalCenter" onClick="modalClick(event)">
+                            <img id="first-product" src="./product3.png" class="img-fluid" />
                         </div>
                         <div class="row text-right package-anchor-section">
                             <a class="d-flex flex-column">
@@ -352,38 +351,40 @@
             </div>
         </div>
 
-        <div id="contact-form" class="py-5">
-            <div class="row justify-content-center">
-                <h3 class="header-text-color py-5 contactus-row-header-text">
+         <div id="contact-form" class="py-5">
+            <div class=" justify-content-center">
+                <span class="header-text-color py-5 contactus-row-header-text">
                     CONTACT US
-                </h3>
+                </span>
             </div>
-            <div class="container ">
-                <div class="row">
+            <div class="container row">
                     <div class="col-12 col-md-6">
                         <form class="text-left form-section">
                             <div class="form-group">
                                 <label for="nameInput">Name</label>
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" class="form-control" id="name" />
                             </div>
                             <div class="form-group">
                                 <label for="emailInput">Email</label>
-                                <input type="email" class="form-control" id="email">
+                                <input type="email" class="form-control" id="email" />
                             </div>
                             <div class="form-group">
                                 <label for="subjectInput">Subject</label>
-                                <input type="text" class="form-control" id="subject">
+                                <input type="text" class="form-control" id="subject" />
                             </div>
                             <div class="form-group">
                                 <label for="message">Messgae</label>
                                 <textarea class="form-control" id="message" row="5"></textarea>
                             </div>
+                            <div class="form-group">
+                                <label id="sendButton">Send</label>
+                            </div>
                             <div class="d-flex justify-content-end">
-                                <img src="./image/button.png" alt="">
+                                <img src="./image/button.png" alt="" />
                             </div>
                         </form>
                     </div>
-                    <div class="col-12 col-md-6 border-left">
+                    <div id="address-main-section" class="col-12 col-md-6 ">
                         <div class="address-section">
                             <p>Oddinary Marketing India Pvt. Ltd. <br />610 611, Shrishti Plaza, Saki Vihar Road, 72,
                                 <br />Andheri East, Mumbai - 400076, </p>
@@ -394,9 +395,6 @@
                                 width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
-                </div>
-
-
             </div>
         </div>
 
@@ -406,11 +404,12 @@
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div  class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">back;</span>
+                        </button></div>
+                    <div class=" row modal-header d-flex justify-content-center">
                         <h5 class="modal-title" id="modal-title">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        
                     </div>
                     <div class="modal-body" id="modal-body">
                         <img src="./modal/1/1.jpg" alt="" class="img-fluid py-3">
@@ -424,9 +423,7 @@
 
     </main>
 
-    <footer>
-
-    </footer>
+   
 
     <!-- script path -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"

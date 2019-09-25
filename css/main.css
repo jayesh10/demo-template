@@ -291,6 +291,14 @@ nav a {
     font-size: 20px;
   }
 }
+#contact-form #address-main-section {
+  border-left: 1px solid #dee2e6;
+}
+@media screen and (max-width: 768px) {
+  #contact-form #address-main-section {
+    border-left: 0;
+  }
+}
 #contact-form .address-section {
   text-align: left;
   font-size: 15px;
@@ -299,6 +307,10 @@ nav a {
   color: #ACADB1;
   font-family: "DinAlt";
   padding-left: 5%;
+}
+#contact-form #sendButton {
+  font-family: "DinAltBold";
+  font-size: 25px;
 }
 
 .google-maps {

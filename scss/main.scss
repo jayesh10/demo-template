@@ -347,6 +347,13 @@ nav{
     }
   }
 
+  #address-main-section{
+    border-left: 1px solid #dee2e6;
+    @media screen and (max-width:768px){
+      border-left:0;
+    }
+  }
+
   .address-section{
     text-align: left;
     font-size: 15px;
@@ -355,6 +362,11 @@ nav{
     color:$headertext-color;
     font-family: "DinAlt";
     padding-left:5%;
+  }
+
+  #sendButton{
+    font-family: "DinAltBold";
+    font-size: 25px;
   }
   
 }

@@ -1,8 +1,8 @@
 const data  = [
     {
     id:'first-product',
-    title:'product name 1',
-    content:'product content 1'
+    title:'Kelloggs',
+    content:'<img src="./modal/1/1.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/2.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/3.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/4.jpg" alt="" class="img-fluid py-3">'
 },
 {
     id:'second-product',
