@@ -418,7 +418,7 @@ nav a {
   }
 }
 .map-section iframe {
-  border-radius: 30px;
+  border-radius: 15px;
 }
 @media screen and (max-width: 768px) {
   .map-section iframe {
