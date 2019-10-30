@@ -195,8 +195,11 @@ nav{
     letter-spacing: 0px;
     line-height: 37px;
     font-weight: bold;
-    padding-bottom: 1%;
-
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 30%;
+    right: 100%;
+    width: 170px;
     @media screen and (max-width:768px){
       font-size: 18px;
     }
@@ -204,14 +207,11 @@ nav{
 
   .package-anchor-section{
     font-family: "DinAltBold";
-    display: flex;
-    justify-content: flex-end;
-    transform: rotate(-90deg);
     position: absolute;
-    left: 88%;
-    top: 50%;
-    padding-top:4%;
-    color:#b52727;
+    left:93%;
+    top: 43%;
+    
+    text-transform:uppercase;
     @media screen and (max-width:768px){
       transform: rotate(0);
       position: sticky;
@@ -225,12 +225,12 @@ nav{
     font-family: "DinAltBold";
     display: flex;
     justify-content: flex-end;
-    transform: rotate(-90deg);
+    text-transform:uppercase;
     position: absolute;
-    left: 88%;
-    top: 50%;
-    padding-top:4%;
-    color:#43cfe8;
+    left: 93%;
+    top: 43%;
+   
+    
     @media screen and (max-width:768px){
       transform: rotate(0);
       position: sticky;
