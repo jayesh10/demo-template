@@ -206,11 +206,19 @@ nav{
     }
   }
 
+
+
   .package-anchor-section{
     font-family: "DinAltBold";
     position: absolute;
     left:93%;
     top: 43%;
+    a{
+      font-size: 16px;
+      line-height: 17px;
+      color: #abadb0 !important;
+    }
+   
     
     text-transform:uppercase;
     @media screen and (max-width:768px){
@@ -230,6 +238,11 @@ nav{
     position: absolute;
     left: 93%;
     top: 43%;
+    a{
+      font-size: 16px;
+      line-height: 17px;
+      color: #abadb0 !important;
+    }
    
     
     @media screen and (max-width:768px){
@@ -412,7 +425,11 @@ color: #ffffff;
 
 
 .back-button{
-  padding:20px;
+  padding: 40px 0 0 60px;
+
+  .close{
+    font-size: 1.1rem;;
+  }
 }
 // google map code
 .google-maps {
@@ -542,5 +559,114 @@ color: #ffffff;
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+    }
+  }
+
+  #workshowcase-section{
+    background-color:$white;
+    padding-top:80px;
+    padding-bottom:80px;
+    cursor: pointer;
+    @media screen and (max-width:768px){
+      padding: 50px 20px 50px 20px;  
+    }
+  
+    .work-header{
+      font-family: "DinAltBold";
+      font-size: 40px;
+      letter-spacing: -1px;
+  
+  
+      @media screen and (max-width:768px){
+        font-size: 20px;
+      }
+    }
+  
+    .row-section{
+      position: relative;
+  
+      @media screen and (max-width:768px){
+        padding-right:0px;
+      }
+    }
+  
+    .workshowcase-row-header-text{
+      font-size: 26px;
+      letter-spacing: -1px;
+      line-height: 24px;
+      color: #abadb0;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      @media screen and (max-width:768px){
+        font-size: 18px;
+      }
+    }
+  
+  
+  
+    .package-anchor-section{
+      font-family: "DinAltBold";
+      position: absolute;
+      left:93%;
+      top: 43%;
+      a{
+        font-size: 16px;
+        line-height: 17px;
+        color: #abadb0 !important;
+      }
+     
+      
+      text-transform:uppercase;
+      @media screen and (max-width:768px){
+        transform: rotate(0);
+        position: sticky;
+        justify-content: center;
+        width:100%;
+    
+      }
+    }
+  
+    .campaign-anchor-section{
+      font-family: "DinAltBold";
+      display: flex;
+      justify-content: flex-end;
+      text-transform:uppercase;
+      position: absolute;
+      left: 93%;
+      top: 43%;
+      a{
+        font-size: 16px;
+        line-height: 17px;
+        color: #abadb0 !important;
+      }
+     
+      
+      @media screen and (max-width:768px){
+        transform: rotate(0);
+        position: sticky;
+        justify-content: center;
+        width:100%;
+    
+      }
+    }
+  
+    .brand-anchor-section{
+      font-family: "DinAltBold";
+      display: flex;
+      justify-content: flex-end;
+      transform: rotate(-90deg);
+      position: absolute;
+      left: 88%;
+      top: 50%;
+      padding-top:4%;
+      color:#edb315;
+      @media screen and (max-width:768px){
+        transform: rotate(0);
+        position: sticky;
+        justify-content: center;
+        width:100%;
+    
+      }
     }
   }

@@ -116,6 +116,7 @@ nav a {
   background-color: #fff;
   padding-top: 80px;
   padding-bottom: 80px;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   #work-section {
@@ -168,6 +169,11 @@ nav a {
   top: 43%;
   text-transform: uppercase;
 }
+#work-section .package-anchor-section a {
+  font-size: 16px;
+  line-height: 17px;
+  color: #abadb0 !important;
+}
 @media screen and (max-width: 768px) {
   #work-section .package-anchor-section {
     transform: rotate(0);
@@ -184,6 +190,11 @@ nav a {
   position: absolute;
   left: 93%;
   top: 43%;
+}
+#work-section .campaign-anchor-section a {
+  font-size: 16px;
+  line-height: 17px;
+  color: #abadb0 !important;
 }
 @media screen and (max-width: 768px) {
   #work-section .campaign-anchor-section {
@@ -348,7 +359,10 @@ nav a {
 }
 
 .back-button {
-  padding: 20px;
+  padding: 40px 0 0 60px;
+}
+.back-button .close {
+  font-size: 1.1rem;
 }
 
 .google-maps {
@@ -480,6 +494,110 @@ nav a {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+#workshowcase-section {
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section {
+    padding: 50px 20px 50px 20px;
+  }
+}
+#workshowcase-section .work-header {
+  font-family: "DinAltBold";
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .work-header {
+    font-size: 20px;
+  }
+}
+#workshowcase-section .row-section {
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .row-section {
+    padding-right: 0px;
+  }
+}
+#workshowcase-section .workshowcase-row-header-text {
+  font-size: 26px;
+  letter-spacing: -1px;
+  line-height: 24px;
+  color: #abadb0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .workshowcase-row-header-text {
+    font-size: 18px;
+  }
+}
+#workshowcase-section .package-anchor-section {
+  font-family: "DinAltBold";
+  position: absolute;
+  left: 93%;
+  top: 43%;
+  text-transform: uppercase;
+}
+#workshowcase-section .package-anchor-section a {
+  font-size: 16px;
+  line-height: 17px;
+  color: #abadb0 !important;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .package-anchor-section {
+    transform: rotate(0);
+    position: sticky;
+    justify-content: center;
+    width: 100%;
+  }
+}
+#workshowcase-section .campaign-anchor-section {
+  font-family: "DinAltBold";
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  position: absolute;
+  left: 93%;
+  top: 43%;
+}
+#workshowcase-section .campaign-anchor-section a {
+  font-size: 16px;
+  line-height: 17px;
+  color: #abadb0 !important;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .campaign-anchor-section {
+    transform: rotate(0);
+    position: sticky;
+    justify-content: center;
+    width: 100%;
+  }
+}
+#workshowcase-section .brand-anchor-section {
+  font-family: "DinAltBold";
+  display: flex;
+  justify-content: flex-end;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 88%;
+  top: 50%;
+  padding-top: 4%;
+  color: #edb315;
+}
+@media screen and (max-width: 768px) {
+  #workshowcase-section .brand-anchor-section {
+    transform: rotate(0);
+    position: sticky;
+    justify-content: center;
+    width: 100%;
   }
 }
 
