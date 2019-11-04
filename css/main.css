@@ -249,9 +249,20 @@ nav a {
   padding: 50px 20px;
   border-radius: 0px;
   border-width: 2px;
-  border-style: solid;
-  border-color: #fff;
   text-align: start;
+}
+#testimonal-section .message-section .polygon {
+  border-radius: 13px;
+  border-bottom-left-radius: 108px;
+  border-bottom-right-radius: 35px;
+  height: 220px;
+  background: #fff;
+  color: #000;
+  box-sizing: border-box;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 18% 99%, 18% 90%, 8% 89%);
+  display: flex;
+  text-align: center;
+  padding: 20px;
 }
 #testimonal-section .message-section p {
   margin: auto;
@@ -325,6 +336,19 @@ nav a {
 #contact-form .action-section {
   display: flex;
   justify-content: space-between;
+}
+
+#footer-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #363636;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.back-button {
+  padding: 20px;
 }
 
 .google-maps {

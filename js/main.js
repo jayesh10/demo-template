@@ -1,37 +1,27 @@
 const data  = [
     {
     id:'first-product',
-    title:'Kelloggs',
-    content:'<img src="./modal/1/1.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/2.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/3.jpg" alt="" class="img-fluid py-3"><img src="./modal/1/4.jpg" alt="" class="img-fluid py-3">'
+    content:'<img src="./modal/Kelloggs-Granola.jpg" alt="" class="img-fluid py-3">'
 },
 {
     id:'second-product',
-    title:'product name 2',
-    content:'product content 2'
+    content:'<img src="./modal/Pringles-Sadaqah-Pack.jpg" alt="" class="img-fluid py-3">'
+   
 },{
     id:'third-product',
-    title:'product name 3',
-    content:'product content 3'
+    content:'<img src="./modal/Kelloggs-bar.jpg" alt="" class="img-fluid py-3">'  
 },
 {
     id:'fourth-product',
-    title:'product name 4',
-    content:'product content 4'
-},
+    content:'<img src="./modal/Flipkart-SuperMart-ads.jpg" alt="" class="img-fluid py-3">'
+},    
 {
     id:'fifth-product',
-    title:'product name 5',
-    content:'product content 5'
+    content:'<img src="./modal/Lakme-Festive-2017.jpg" alt="" class="img-fluid py-3">'
 },
 {
     id:'sixth-product',
-    title:'product name 6',
-    content:'product content 6'
-},
-{
-    id:'seventh-product',
-    title:'product name 7',
-    content:'product content 7'
+    content:'<img src="./modal/IBB-Campaign.jpg" alt="" class="img-fluid py-3">'
 },
 ]
 
@@ -43,6 +33,5 @@ function getData(array,id){
 function modalClick(event){
     var id = event.target.id;
     var value  = getData(data,id);
-    document.getElementById('modal-title').innerHTML = value.title;
     document.getElementById('modal-body').innerHTML = value.content;
 }

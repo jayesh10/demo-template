@@ -162,6 +162,7 @@ nav{
   background-color:$white;
   padding-top:80px;
   padding-bottom:80px;
+  cursor: pointer;
   @media screen and (max-width:768px){
     padding: 50px 20px 50px 20px;  
   }
@@ -301,9 +302,22 @@ nav{
     padding:50px 20px;
     border-radius:0px;
     border-width: 2px;
-    border-style: solid;
-    border-color: $white;
     text-align: start;
+    .polygon{
+     
+  border-radius: 13px;
+  border-bottom-left-radius: 108px;
+  border-bottom-right-radius: 35px;
+  height: 220px;
+  background: #fff;
+  color:#000;
+  box-sizing: border-box;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 18% 99%, 18% 90%, 8% 89%);
+  display: flex;
+  text-align: center;
+  padding: 20px;
+
+    }
     p{
       margin:auto;
     }
@@ -386,6 +400,20 @@ nav{
   
 }
 
+
+#footer-section{
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #363636;
+  font-size: 16px;
+line-height: 24px;
+color: #ffffff;
+}
+
+
+.back-button{
+  padding:20px;
+}
 // google map code
 .google-maps {
   position: relative;
@@ -422,6 +450,7 @@ nav{
   .carousel {
     margin-bottom: 4rem;
   }
+
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
