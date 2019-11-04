@@ -362,7 +362,7 @@ nav a {
   padding: 40px 0 0 60px;
 }
 .back-button .close {
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
 }
 
 .google-maps {
@@ -531,7 +531,7 @@ nav a {
   line-height: 24px;
   color: #abadb0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -599,6 +599,9 @@ nav a {
     justify-content: center;
     width: 100%;
   }
+}
+#workshowcase-section .close {
+  font-size: 1.1rem !important;
 }
 
 /*# sourceMappingURL=main.css.map */

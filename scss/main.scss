@@ -428,7 +428,7 @@ color: #ffffff;
   padding: 40px 0 0 60px;
 
   .close{
-    font-size: 1.1rem;;
+    font-size: 1.1rem !important;
   }
 }
 // google map code
@@ -596,7 +596,7 @@ color: #ffffff;
       line-height: 24px;
       color: #abadb0;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 20px;
       @media screen and (max-width:768px){
         font-size: 18px;
@@ -668,5 +668,8 @@ color: #ffffff;
         width:100%;
     
       }
+    }
+    .close{
+      font-size: 1.1rem !important;
     }
   }
