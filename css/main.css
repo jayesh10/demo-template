@@ -46,6 +46,7 @@ nav a {
 }
 
 .banner-image a {
+  transition: 1s;
   color: #fff;
 }
 .banner-image .text {
@@ -392,13 +393,13 @@ nav a {
 
 .slick-next {
   position: absolute;
-  left: -55px;
+  left: -100px;
   top: 55px;
 }
 
 .slick-prev {
   position: absolute;
-  right: -55px;
+  right: -100px;
   top: 64px;
   transform: rotate(180deg);
 }
