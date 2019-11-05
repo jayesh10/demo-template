@@ -32,17 +32,17 @@ nav a {
 
 #workShowcase-section:hover {
   transition: 1s;
-  color: blue;
+  color: #9f202d;
 }
 
 #clinetSpeak-section:hover {
   transition: 1s;
-  color: blueviolet;
+  color: #46a9df;
 }
 
 #contact-section:hover {
   transition: 1s;
-  color: darkcyan;
+  color: #fcb247;
 }
 
 .banner-image a {
@@ -291,7 +291,7 @@ nav a {
 #contact-form {
   background-color: #363636;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 #contact-form label {
   font-size: 1.2rem;
@@ -358,6 +358,10 @@ nav a {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+#footer-section .bottom-text {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .back-button {
