@@ -606,6 +606,7 @@ color: #ffffff;
       display: flex;
       justify-content: flex-start;
       padding: 20px;
+      padding-bottom: 50px;
       @media screen and (max-width:768px){
         font-size: 18px;
       }
@@ -679,5 +680,6 @@ color: #ffffff;
     }
     .close{
       font-size: 1.1rem !important;
+      padding-bottom: 20px;
     }
   }
