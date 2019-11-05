@@ -277,6 +277,8 @@ nav a {
 }
 #testimonal-section .message-section p {
   margin: auto;
+  font-size: 14px;
+  margin: 0 20px;
 }
 #testimonal-section .message-section .anchor-name-section {
   margin-top: 10px;
