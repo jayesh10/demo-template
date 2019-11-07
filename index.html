@@ -257,7 +257,7 @@
                 </div>
                 <div class="container row">
                     <div class="col-12 col-md-6">
-                        <form class="text-left form-section">
+                        <form id="contact" class="text-left form-section" name="contact" method="POST" data-netlify="true">
                             <div class="form-group">
                                 <label for="nameInput">Name</label>
                                 <input type="text" class="form-control" id="name" />
@@ -275,9 +275,8 @@
                                 <textarea class="form-control" id="message" row="5"></textarea>
                             </div>
                             <div class="form-group action-section">
-                                <label id="sendButton">Send</label>                     
+                                <button id="sendButton" type="submit">Send</button>                      
                                 <img src="./image/button.png" alt="" />
-                           
                         </div>
                         </form>
                     </div>

@@ -683,3 +683,9 @@ color: #ffffff;
       padding-bottom: 20px;
     }
   }
+
+  @media (min-width: 1280px){
+    .modal-lg {
+      max-width: 1024px !important;
+    }
+  }
