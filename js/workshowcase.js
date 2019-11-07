@@ -12,7 +12,7 @@ const data  = [
     content:'<img src="./modal/Kelloggs-bar.jpg" alt="" class="img-fluid py-3">'  
 },{
     id:'fourth-product',
-    content:'<img src="./modal/Kelloggs-bar.jpg" alt="" class="img-fluid py-3">'  
+    content:'<img src="./modal/Kwality-walls-ZAP.jpg" alt="" class="img-fluid py-3">'  
 },{
     id:'fifth-product',
     content:'<img src="./modal/Pringles-JL-Pack.jpg" alt="" class="img-fluid py-3">'  

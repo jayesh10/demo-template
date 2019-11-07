@@ -49,7 +49,7 @@ nav{
 // navigations hover effect color
 #home-section:hover{
   transition:1s;
-  color:#000;
+  color:#0000ff;
 }
 
 #aboutus-section:hover{
@@ -199,11 +199,11 @@ nav{
     color: #80817d;
     font-size: 22px;
     letter-spacing: 0px;
-    line-height: 37px;
+    line-height: 25px;
     font-weight: bold;
     transform: rotate(-90deg);
     position: absolute;
-    top: 30%;
+    top: 38%;
     right: 100%;
     width: 170px;
     @media screen and (max-width:768px){
@@ -330,7 +330,7 @@ nav{
   background: #fff;
   color:#000;
   box-sizing: border-box;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 18% 99%, 18% 90%, 8% 89%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 21% 99%, 19% 89%, 8% 89%);
   display: flex;
   text-align: center;
   padding: 20px;
@@ -472,14 +472,14 @@ color: #ffffff;
 .slick-next{
   position: absolute;
   right: -100px;
-  top: 55px;
+  top: 40%;
  
 }
 
 .slick-prev{
   position: absolute;
   left: -100px;
-  top: 64px;
+  top: 40%;
   
 }
 
@@ -619,6 +619,7 @@ color: #ffffff;
       justify-content: flex-start;
       padding: 20px;
       padding-bottom: 50px;
+      font-weight: bold;
       @media screen and (max-width:768px){
         font-size: 18px;
       }
@@ -691,7 +692,7 @@ color: #ffffff;
       }
     }
     .close{
-      font-size: 1.1rem !important;
+      font-size: 1.0rem !important;
       padding-bottom: 20px;
     }
   }
