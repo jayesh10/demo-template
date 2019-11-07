@@ -6,11 +6,16 @@
   font-family: "DinAltBold";
   src: url("../font/DINBK.TTF");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #80817D;
 }
 
 nav a {
+  transition: 1s;
   padding: 15px;
   color: #fff;
 }
