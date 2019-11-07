@@ -393,15 +393,16 @@ nav a {
 
 .slick-next {
   position: absolute;
-  left: -100px;
+  right: -100px;
   top: 55px;
+  transform: rotate(180deg);
 }
 
 .slick-prev {
   position: absolute;
-  right: -100px;
+  left: -100px;
   top: 64px;
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 /* Carousel base class */
