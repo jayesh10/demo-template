@@ -137,7 +137,6 @@ nav a {
 #work-section .row-section {
   position: relative;
   padding-left: 0%;
-  padding-right: 10%;
 }
 @media screen and (max-width: 768px) {
   #work-section .row-section {
@@ -166,7 +165,7 @@ nav a {
 #work-section .package-anchor-section {
   font-family: "DinAltBold";
   position: absolute;
-  left: 93%;
+  left: 102%;
   top: 43%;
   text-transform: uppercase;
 }
@@ -189,7 +188,7 @@ nav a {
   justify-content: flex-end;
   text-transform: uppercase;
   position: absolute;
-  left: 93%;
+  left: 102%;
   top: 43%;
 }
 #work-section .campaign-anchor-section a {

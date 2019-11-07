@@ -182,8 +182,7 @@ nav{
   .row-section{
     position: relative;
     padding-left: 0%;
-    padding-right: 10%;
-
+    
     @media screen and (max-width:768px){
       padding-right:0px;
     }
@@ -212,7 +211,7 @@ nav{
   .package-anchor-section{
     font-family: "DinAltBold";
     position: absolute;
-    left:93%;
+    left:102%;
     top: 43%;
     a{
       font-size: 16px;
@@ -237,7 +236,7 @@ nav{
     justify-content: flex-end;
     text-transform:uppercase;
     position: absolute;
-    left: 93%;
+    left: 102%;
     top: 43%;
     a{
       font-size: 16px;
