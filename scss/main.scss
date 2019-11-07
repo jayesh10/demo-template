@@ -412,6 +412,13 @@ nav{
   #sendButton{
     font-family: "DinAltBold";
     font-size: 25px;
+    background: transparent;
+    border: none;
+    color:$headertext-color;
+
+    &:focus{
+      border: none;
+    }
   }
   .action-section{
     display: flex;
@@ -466,14 +473,14 @@ color: #ffffff;
   position: absolute;
   right: -100px;
   top: 55px;
-  transform: rotate(180deg);
+ 
 }
 
 .slick-prev{
   position: absolute;
   left: -100px;
   top: 64px;
-  transform: rotate(0deg);
+  
 }
 
   /* Carousel base class */

@@ -350,6 +350,12 @@ nav a {
 #contact-form #sendButton {
   font-family: "DinAltBold";
   font-size: 25px;
+  background: transparent;
+  border: none;
+  color: #ACADB1;
+}
+#contact-form #sendButton:focus {
+  border: none;
 }
 #contact-form .action-section {
   display: flex;
@@ -399,14 +405,12 @@ nav a {
   position: absolute;
   right: -100px;
   top: 55px;
-  transform: rotate(180deg);
 }
 
 .slick-prev {
   position: absolute;
   left: -100px;
   top: 64px;
-  transform: rotate(0deg);
 }
 
 /* Carousel base class */
