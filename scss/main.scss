@@ -330,7 +330,10 @@ nav{
   background: #fff;
   color:#000;
   box-sizing: border-box;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 21% 99%, 19% 89%, 8% 89%);
+   clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 24% 89%, 21% 99%, 19% 89%, 8% 89%);
+  //clip-path: polygon(50% 0%, 100% 0, 94% 100%, 50% 100%, 9% 99%, 0 0);
+
+
   display: flex;
   text-align: center;
   padding: 20px;
