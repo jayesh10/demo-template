@@ -322,6 +322,13 @@ nav{
     border-width: 2px;
     text-align: start;
     
+    .messagebox{
+      background-image:url('../message.png');
+     
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 47px 0 47px;
+    }
     .polygon{ 
   border-radius: 13px;
   border-bottom-left-radius: 108px;
@@ -340,12 +347,17 @@ nav{
 
     }
     p{
-      margin:auto;
-      font-size: 14px;
-      margin: 0 20px;
+      margin: auto; 
+    font-size: 14px;
+ 
+    z-index: 1000;
+    height: 185px;
+    width: 100%;
+
+    color: #000;
     }
     .anchor-name-section{
-      margin-top:10px;
+      margin-left: 45px;
     }
     .name-section{
       

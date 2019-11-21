@@ -267,6 +267,12 @@ nav a {
   border-width: 2px;
   text-align: start;
 }
+#testimonal-section .message-section .messagebox {
+  background-image: url("../message.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px 47px 0 47px;
+}
 #testimonal-section .message-section .polygon {
   border-radius: 13px;
   border-bottom-left-radius: 108px;
@@ -283,10 +289,13 @@ nav a {
 #testimonal-section .message-section p {
   margin: auto;
   font-size: 14px;
-  margin: 0 20px;
+  z-index: 1000;
+  height: 185px;
+  width: 100%;
+  color: #000;
 }
 #testimonal-section .message-section .anchor-name-section {
-  margin-top: 10px;
+  margin-left: 45px;
 }
 #testimonal-section .message-section .name-section {
   color: #fff;
