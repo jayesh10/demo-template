@@ -418,15 +418,25 @@ nav a {
   margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 768px) {
+  .carousel-indicators {
+    height: 45rem;
+  }
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    height: 45rem;
+  }
+}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 40rem;
   background-color: #80817D;
 }
 @media screen and (max-width: 768px) {
@@ -436,7 +446,7 @@ nav a {
 }
 
 .carousel-item > img {
-  height: 32rem;
+  height: 40rem;
 }
 @media screen and (max-width: 768px) {
   .carousel-item > img {
