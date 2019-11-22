@@ -295,7 +295,7 @@ nav a {
   font-size: 14px;
   color: #000;
 }
-@media screen and (max-width: 1236px) {
+@media screen and (max-width: 1235px) {
   #testimonal-section .message-section p {
     margin: 0px;
     width: 50%;
@@ -432,6 +432,25 @@ nav a {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0px;
+  bottom: 300px;
+  left: auto;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 15%;
+  list-style: none;
+  transform: rotate(90deg);
 }
 
 /* Since positioning the image, we need to help out the caption */
