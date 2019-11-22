@@ -327,7 +327,11 @@ nav{
      
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 30px 47px 0 47px;
+    padding: 0 35px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 210px;
     }
     .polygon{ 
   border-radius: 13px;
@@ -349,12 +353,11 @@ nav{
     p{
       margin: auto; 
     font-size: 14px;
- 
-    z-index: 1000;
-    height: 185px;
-    width: 100%;
-
     color: #000;
+    @media screen and (max-width:1236px){
+     margin:0px;
+     width:50%;
+    }
     }
     .anchor-name-section{
       margin-left: 45px;
