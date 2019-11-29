@@ -508,7 +508,7 @@ color: #ffffff;
 
   .carousel-indicators{
     position: absolute;
-    right: 0px;
+    right: 220px;
     bottom: 300px;
     left: auto;
     z-index: 15;
@@ -737,4 +737,10 @@ color: #ffffff;
     .modal-lg {
       max-width: 1024px !important;
     }
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
   }
