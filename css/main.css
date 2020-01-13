@@ -299,7 +299,7 @@ nav a {
 @media screen and (max-width: 1235px) {
   #testimonal-section .message-section p {
     margin: 0px;
-    width: 50%;
+    width: 400px;
   }
 }
 #testimonal-section .message-section .anchor-name-section {
